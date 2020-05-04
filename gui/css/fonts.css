@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/Montserrat/montserrat-black-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-black {
+    font-family: montserratblack;
+}
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/Montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-bold {
+    font-family: montserratbold;
+}
+
+
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('../fonts/Montserrat/montserrat-italic-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.mon-italic {
+    font-family: montserratitalic;
+}
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-light {
+    font-family: montserratlight;
+}
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/Montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-medium {
+    font-family: montserratmedium;
+}
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-regular {
+    font-family: montserratregular;
+}
+
+
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/Montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.mon-semibold {
+    font-family: montserratsemibold;
+}
+
+
+
+@font-face {
+    font-family: 'montserratthin';
+    src: url('../fonts/Montserrat/montserrat-thin-webfont.woff2') format('woff2'),
+    url('../fonts/Montserrat/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.mon-thin {
+    font-family: montserratthin;
+}
+
+
+
+@font-face {
+    font-family: 'nunitoblack';
+    src: url('../fonts/Nunito/nunito-black-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-black {
+    font-family: nunitoblack;
+}
+
+
+
+@font-face {
+    font-family: 'nunitobold';
+    src: url('../fonts/Nunito/nunito-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-bold {
+    font-family: nunitobold;
+}
+
+
+
+
+@font-face {
+    font-family: 'nunitoextrabold';
+    src: url('../fonts/Nunito/nunito-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-extrabold {
+    font-family: nunitoextrabold;
+}
+
+
+@font-face {
+    font-family: 'nunitoextralight';
+    src: url('../fonts/Nunito/nunito-extralight-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-extralight {
+    font-family: nunitoextralight;
+}
+
+
+@font-face {
+    font-family: 'nunitoitalic';
+    src: url('../fonts/Nunito/nunito-italic-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-italic {
+    font-family: nunitoitalic;
+}
+
+
+@font-face {
+    font-family: 'nunitolight';
+    src: url('../fonts/Nunito/nunito-light-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-light {
+    font-family: nunitolight;
+}
+
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('../fonts/Nunito/nunito-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-regular {
+    font-family: nunitoregular;
+}
+
+
+@font-face {
+    font-family: 'nunitosemibold';
+    src: url('../fonts/Nunito/nunito-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/Nunito/nunito-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nunito-semibold {
+    font-family: nunitosemibold;
+}
+
+
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('../fonts/Ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-italic {
+    font-family: ubuntuitalic;
+}
+
+
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/Ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-light {
+    font-family: ubuntulight;
+}
+
+
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/Ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-medium {
+    font-family: ubuntumedium;
+}
+
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/Ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-regular {
+    font-family: ubunturegular;
+}
+
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/Ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-bold {
+    font-family: ubuntubold;
+}
+
+
+@font-face {
+    font-family: 'ubuntu_monobold';
+    src: url('../fonts/Ubuntu_Mono/ubuntumono-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu_Mono/ubuntumono-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-mono-bold {
+    font-family: ubuntu_monobold;
+}
+
+
+@font-face {
+    font-family: 'ubuntu_monoitalic';
+    src: url('../fonts/Ubuntu_Mono/ubuntumono-italic-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu_Mono/ubuntumono-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ubnt-mono-italic {
+    font-family: ubuntu_monoitalic;
+}
+
+
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('../fonts/Ubuntu_Mono/ubuntumono-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Ubuntu_Mono/ubuntumono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.ubnt-mono-regular {
+    font-family: ubuntu_monoregular;
+}
