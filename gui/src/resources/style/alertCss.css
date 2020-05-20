@@ -1,0 +1,82 @@
+* {
+    -fx-primary: rgb(255, 255, 255);
+    -fx-secondary: rgb(238, 238, 238);
+    -fx-third: rgb(217, 217, 217);
+    -fx-separated: rgb(247, 247, 247);
+    -fx-pressed: rgb(204, 232, 255);
+    -fx-hovered: rgb(216, 234, 249);
+    -fx-primaryText: rgb(0, 0, 0);
+ }
+
+.root {
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-primaryText;
+}
+
+.jfx-button {
+    -fx-background-position: center;
+    -fx-background-radius: 0;
+    -fx-transition: background 0.8s;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+    -fx-outline: none;
+    -fx-text-fill: -fx-primaryText;
+    -fx-background-color: -fx-primary;
+    -jfx-disable-visual-focus: true;
+    -fx-border-color: -fx-third;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-style: solid;
+}
+
+.button:hover {
+    -fx-background-color: -fx-hovered linear-gradient(to bottom, -fx-hovered 5%, -fx-hovered 100%);
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-color: -fx-third;
+    -fx-border-style: solid;
+}
+
+.button:pressed {
+    -fx-background-color: -fx-pressed;
+    -fx-background-size: 100%;
+    -fx-transition: background 0s;
+    -fx-text-fill: -fx-primaryText;
+    -fx-border-color: -fx-third;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-style: solid;
+}
+
+.jfx-text-area {
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-color: -fx-third;
+    -fx-text-fill: -fx-primaryText;
+    -fx-border-style: solid;
+    -jfx-focus-color: transparent;
+    -jfx-unfocus-color: transparent;
+}
+
+.jfx-text-area:hover {
+    -fx-cursor: text;
+}
+
+.separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: -fx-separated;
+}
+
+.progress-bar {
+    -fx-border-color: -fx-separated;
+    -fx-border-style: solid;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 0px 0px 0px 0px;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: -fx-secondary;
+    -fx-background-radius: 0px;
+}
+
+.progress-bar > .track {
+    -fx-background-color: -fx-third;
+    -fx-background-radius: 0px;
+}
