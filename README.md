@@ -7,4 +7,4 @@ Projekt na przedmiot Bazy danych
   - Dokumentacja
   
 Baza danych Oracle Database wykorzystująca PL/SQL.
-GUI jest stroną internetowa wykorzystującą PHP do komunikacji z bazą danych
+GUI jest aplikacja wykorzystująca framework Hibernate.
