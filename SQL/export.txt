@@ -105,7 +105,7 @@
 --------------------------------------------------------
 
   CREATE TABLE "WOJTEK"."EMPLOYEES" 
-   (	"ID" NUMBER, 
+   (	"ID" NUMBER(*,0), 
 	"FIRST_NAME" VARCHAR2(255 BYTE), 
 	"LAST_NAME" VARCHAR2(255 BYTE), 
 	"DATE_OF_BIRTH" DATE, 
@@ -368,14 +368,14 @@ Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('4','France
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('5','China','Zudun','7 International Hill');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('6','China','Beihe','402 Dovetail Avenue');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('7','Thailand','Wang Nam Yen','49 Manufacturers Hill');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('8','Yemen','Raºad','9157 Welch Crossing');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('9','Argentina','Famaillá','58 Caliangt Crossing');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('8','Yemen','RaÂºad','9157 Welch Crossing');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('9','Argentina','FamaillÃ¡','58 Caliangt Crossing');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('10','Latvia','Riebini','503 Pine View Parkway');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('11','Bolivia','Mairana','798 Katie Crossing');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('12','France','Marly','1756 Heath Street');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('13','Latvia','Inèukalns','96 Pearson Point');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('13','Latvia','InÃ¨ukalns','96 Pearson Point');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('14','Ukraine','Zdolbuniv','6 Schlimgen Center');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('15','Colombia','Chiquinquirá','1 Moland Lane');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('15','Colombia','ChiquinquirÃ¡','1 Moland Lane');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('16','Philippines','Candijay','6236 Bunker Hill Center');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('17','Norway','Porsgrunn','635 Rockefeller Junction');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('18','Brazil','Pedreira','24234 Heath Crossing');
@@ -385,13 +385,13 @@ Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('21','China
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('22','Albania','Ballsh','7 Main Terrace');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('23','China','Jiuhua','50 Comanche Drive');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('24','Myanmar','Kanbe','203 Pankratz Street');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('25','Czech Republic','Dobrá','7 Nelson Parkway');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('25','Czech Republic','DobrÃ¡','7 Nelson Parkway');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('26','Palestinian Territory','Wadi Raval','6 American Junction');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('27','Poland','Szynwa³d','26 Ilene Drive');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('27','Poland','SzynwaÂ³d','26 Ilene Drive');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('28','Malaysia','Seremban','55 Reinke Trail');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('29','Brazil','Santa Isabel','5692 Randy Point');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('30','Russia','Kuybyshev','8083 Red Cloud Place');
-Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('31','Honduras','Concepción de la Barranca','422 Rieder Park');
+Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('31','Honduras','ConcepciÃ³n de la Barranca','422 Rieder Park');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('32','Indonesia','Banggel','8100 Birchwood Court');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('33','China','Xinying','0 Wayridge Crossing');
 Insert into WOJTEK.CUSTOMER_ADDRESS (ID,COUNTRY,CITY,STREET) values ('34','Portugal','Vila Flor','03749 Esker Street');
@@ -474,7 +474,7 @@ Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('5','France
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('6','Indonesia','Baleagung','159 Larry Junction');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('7','Poland','Mirsk','186 Hansons Avenue');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('8','Brazil','Rio Grande','2154 Cherokee Pass');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('9','Albania','Qukës-Skënderbe','400 Declaration Road');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('9','Albania','QukÃ«s-SkÃ«nderbe','400 Declaration Road');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('10','South Korea','Uiju','0010 Corry Lane');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('11','Dominican Republic','Pizarrete','424 Garrison Way');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('12','Russia','Uzlovaya','21576 Autumn Leaf Circle');
@@ -486,21 +486,21 @@ Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('17','Indon
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('18','China','Hoit Taria','58 Anhalt Avenue');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('19','Portugal','Lamarosa','16 Orin Circle');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('20','China','Hengjiang','46807 Drewry Junction');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('21','Cuba','Pinar del Río','69044 Spohn Terrace');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('21','Cuba','Pinar del RÃ­o','69044 Spohn Terrace');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('22','Thailand','Songkhla','87132 Carpenter Lane');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('23','Brazil','Ilhabela','30 Talmadge Center');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('24','Russia','Zarechnyy','92 Chive Drive');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('25','Sweden','Bjästa','16 Oakridge Drive');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('25','Sweden','BjÃ¤sta','16 Oakridge Drive');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('26','China','Beizhang','7975 Helena Parkway');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('27','Sweden','Växjö','3138 Stuart Plaza');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('28','Colombia','Sáchica','47511 Bobwhite Drive');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('27','Sweden','VÃ¤xjÃ¶','3138 Stuart Plaza');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('28','Colombia','SÃ¡chica','47511 Bobwhite Drive');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('29','Indonesia','Kawaliwu','79 Jay Park');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('30','China','Linquan','80 Muir Place');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('31','Panama','Nueva Gorgona','496 Laurel Circle');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('32','Tunisia','Jendouba','1 Melody Street');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('33','Ireland','Virginia','7 Anzinger Court');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('34','China','Nanhe','11781 Fallview Park');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('35','Greece','Kítsi','460 Dennis Place');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('35','Greece','KÃ­tsi','460 Dennis Place');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('36','Indonesia','Sindangkopo','03329 7th Lane');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('37','Kuwait','Ar Riqqah','79309 Spaight Plaza');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('38','Russia','Korolev','51 Towne Junction');
@@ -508,7 +508,7 @@ Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('39','Peru'
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('40','Indonesia','Bangrat','9 Cordelia Point');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('41','Germany','Hamburg','369 7th Circle');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('42','Denmark','Kobenhavn','820 Northfield Court');
-Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('43','Dominican Republic','Dajabón','60 Sutherland Terrace');
+Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('43','Dominican Republic','DajabÃ³n','60 Sutherland Terrace');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('44','Argentina','San Luis del Palmar','03 Monica Street');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('45','Philippines','Tungol','99 Valley Edge Court');
 Insert into WOJTEK.EMPLOYEE_ADDRESS (ID,COUNTRY,CITY,STREET) values ('46','Philippines','Katipunan','76 Eggendart Center');
@@ -881,7 +881,7 @@ Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GRO
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('25','1','Redmi Note 9 Pro','390','780','390','5','1','0');
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('26','1','Redmi Note 9S','420','840','420','5','1','0');
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('27','1','Redmi Note 9 Pro Max','349','698','349','5','1','0');
-Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('28','1','Huawei P9 ','180','360','180','1','6','4900');
+Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('28','1','Huawei P9Â ','180','360','180','1','6','4900');
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('29','1','Huawei P9 Lite ','710','1420','710','1','6','2800');
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('30','1','Huawei P9 Lite Mini ','819','1638','819','1','6','4700');
 Insert into WOJTEK.PRODUCTS (ID,PRODUCT_TYPE_ID,PRODUCT_NAME,PRICE_NET,PRICE_GROSS,PRICE_TAX,UNIT_ID,PRODUCT_STATE_ID,QUANTITY) values ('31','1','Huawei P9 Plus ','572','1144','572','1','6','700');
