@@ -2495,13 +2495,13 @@ public class ButtonWindow extends MainWindow {
                         var x = checkIfEmpty.IsIncomeEmpty(arrayList);
                         if (!x) {
                             tableLists.AddIncome(arrayList);
-                            conf.getStage().close();
                         }
                         try {
                             refreshTableView(tableView1,"IncomeTableView");
                         } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
                             e.printStackTrace();
                         }
+                        conf.getStage().close();
                     });
                     conf.getJfxButton1().setOnAction(actionEvent1 -> {
                         conf.getStage().close();
@@ -2690,6 +2690,7 @@ public class ButtonWindow extends MainWindow {
                         var y = incomeList.get(tableView1.getSelectionModel().getSelectedIndex()).getId();
                         if (!x) {
                             tableLists.UpdateIncome(arrayList, y);
+                            conf.getStage().close();
                         }
                         try {
                             refreshTableView(tableView1,"IncomeTableView");

@@ -32,15 +32,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.jfoenix:jfoenix:9.0.9" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="com.guicedee.services:jakarta.xml.bind-api:0.70.0.6" level="project" />
     <orderEntry type="library" name="lib1" level="project" />
     <orderEntry type="library" name="org.hibernate:hibernate-core:5.4.9.Final1" level="project" />
