@@ -1,0 +1,4 @@
+Login: Wojtek
+Hasło: wojtek_wrona
+
+Ponieważ w Javie użyte jest hasło wojtek_wrona, hasło MUSI być ustawione na wojtek_wrona.
