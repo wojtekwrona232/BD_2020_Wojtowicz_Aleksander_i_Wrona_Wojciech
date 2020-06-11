@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="EntityClasses.Account_Type" table="account_type">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="type" column="type"/>
+    </class>
+    <class name="EntityClasses.Customer" table="customer">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="first_name" column="first_name"/>
+        <property name="last_name" column="last_name"/>
+        <property name="phone_number" column="phone_number"/>
+        <property name="email" column="email"/>
+        <property name="address_id" column="address_id"/>
+        <property name="account_id" column="account_id"/>
+    </class>
+    <class name="EntityClasses.Customer_Account" table="customer_account">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="login" column="login"/>
+        <property name="password" column="password"/>
+        <property name="acc_create_date" column="acc_create_date"/>
+        <property name="type_id" column="type_id"/>
+    </class>
+    <class name="EntityClasses.Customer_Address" table="customer_address">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="country" column="country"/>
+        <property name="city" column="city"/>
+        <property name="street" column="street"/>
+    </class>
+    <class name="EntityClasses.Employee_Account" table="employee_account">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="type_id" column="type_id"/>
+        <property name="login" column="login"/>
+        <property name="password" column="password"/>
+        <property name="account_create_date" column="account_create_date"/>
+    </class>
+    <class name="EntityClasses.Employee_Address" table="employee_address">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="country" column="country"/>
+        <property name="city" column="city"/>
+        <property name="street" column="street"/>
+    </class>
+    <class name="EntityClasses.Employees" table="employees">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="first_name" column="first_name" />
+        <property name="last_name" column="last_name" />
+        <property name="date_of_birth" column="date_of_birth" />
+        <property name="email" column="email"/>
+        <property name="address_id" column="address_id"/>
+        <property name="phone_number" column="phone_number"/>
+        <property name="unit_id" column="unit_id"/>
+        <property name="position_id" column="position_id"/>
+        <property name="salary" column="salary"/>
+        <property name="account_id" column="account_id"/>
+    </class>
+    <class name="EntityClasses.Income" table="income">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="unit_id" column="unit_id"/>
+        <property name="quarter_id" column="quarter"/>
+        <property name="year" column="year"/>
+        <property name="net_income" column="net_income"/>
+        <property name="gross_income" column="gross_income"/>
+        <property name="tax_income" column="tax_income"/>
+    </class>
+    <class name="EntityClasses.Orders" table="orders">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="product_id" column="product_id"/>
+        <property name="customer_id" column="customer_id"/>
+    </class>
+    <class name="EntityClasses.Position" table="position">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="position_name" column="position_name"/>
+    </class>
+    <class name="EntityClasses.Product_State" table="product_state">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="state_name" column="state_name"/>
+    </class>
+    <class name="EntityClasses.Product_Type" table="product_type">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="product_name" column="product_type_name"/>
+    </class>
+    <class name="EntityClasses.Products" table="products">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="product_type_id" column="product_type_id"/>
+        <property name="product_name" column="product_name"/>
+        <property name="price_net" column="price_net"/>
+        <property name="price_gross" column="price_gross"/>
+        <property name="price_tax" column="price_tax"/>
+        <property name="product_state_id" column="product_state_id"/>
+        <property name="quantity" column="quantity"/>
+    </class>
+    <class name="EntityClasses.Spending" table="spending">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="unit_id" column="unit_id"/>
+        <property name="quarter_id" column="quarter"/>
+        <property name="year" column="year"/>
+        <property name="spending_sum" column="spending_sum"/>
+    </class>
+    <class name="EntityClasses.Units" table="unit">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="unit_name" column="unit_name"/>
+    </class>
+</hibernate-mapping>
