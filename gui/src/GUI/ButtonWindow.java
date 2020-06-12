@@ -2125,7 +2125,7 @@ public class ButtonWindow extends MainWindow {
         CheckIfEmpty checkIfEmpty = new CheckIfEmpty();
 
         jfxButton.setOnAction(actionEvent -> {
-            conf.confirmation("Confirmation", "Are you sure you want to add new record?");
+            conf.confirmation("Confirmation", "Are you sure you want to update selected record?");
             conf.getJfxButton().setOnAction(actionEvent1 -> {
                 switch(MainGUI.getCurrentTab()) {
                     // spending

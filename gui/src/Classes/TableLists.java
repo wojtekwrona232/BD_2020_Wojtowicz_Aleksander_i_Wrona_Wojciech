@@ -714,7 +714,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -751,7 +751,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -786,7 +786,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -820,7 +820,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -855,7 +855,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -889,7 +889,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -931,7 +931,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -969,7 +969,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1002,7 +1002,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1034,7 +1034,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1066,7 +1066,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1098,7 +1098,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1137,7 +1137,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1173,7 +1173,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
@@ -1205,7 +1205,7 @@ public class TableLists {
         }
         if (success) {
             Information information = new Information();
-            information.information("Information", "Selected data has been added successfully");
+            information.information("Information", "Selected data has been updated successfully");
         }
     }
 
